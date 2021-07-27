@@ -1,0 +1,30 @@
+# Files ignored by GIT version control
+
+# Build tool (and compiler) temporary output
+testa10/castle-engine-output
+testadreno/castle-engine-output
+
+# Unix executable
+testa10/testa10
+# Windows executable
+testa10/testa10.exe
+# Unix executable
+testadreno/testadreno
+# Windows executable
+testadreno/testadreno.exe
+
+testa10/backup
+testadreno/backup
+
+testa10/code/backup
+testadreno/code/backup
+
+
+testa10/testa10-debug.apk
+testadreno/testadreno-debug.apk
+
+# Library files placed alongside Windows executable
+*.dll
+
+# May contain secret data (your Android keystore username and password)
+AndroidAntProperties.txt
